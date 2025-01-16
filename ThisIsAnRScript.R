@@ -3,6 +3,7 @@
 
 x <- 1:20
 y <- x^3
-
+z <- x^(1/2)
 
 plot(x,y, type = "b", main = "Cubed integers")
+plot(x,z, type = "b", main = "Square roots of integers")
